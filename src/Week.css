@@ -1,0 +1,5 @@
+.weekContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr) repeat(2, 1fr);
+    border-collapse: collapse;
+}

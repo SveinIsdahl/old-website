@@ -1,0 +1,37 @@
+textarea, .day {
+    color: var(--font);
+}
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+    background-color: var(--back);
+    height: 80px;
+    /*If width is auto it does not fit the page, 
+    if its above 90% it messes with the wrapper/dayTitle class div 
+    91% works with chrome not firefox*/
+    width: 90%;
+}
+.day {
+    border: var(--font) 1px solid;
+    background-color: var(--back);
+    font-size: 0.9rem;
+}
+.dayTitle {
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    border-bottom: var(--accent) 2px solid;
+    height: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dayTitle > div:nth-child(1) {
+    text-align: left;
+    color: var(--highlight)
+}
+.dayTitle:nth-child(1) {
+    text-align: right;
+}

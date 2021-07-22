@@ -1,0 +1,32 @@
+:root {
+  --back: #191919;
+  --accent: #32333d;
+  --weekend: #2b2323;
+  --font: white;
+  --highlight: #509fff;
+  --todayBackground: #592389
+}
+html * {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: var(--back);
+}
+.button {
+  color: var(--font);
+  background: var(--accent);
+  border: 1px #DADADA solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+.button:hover {
+  border: 1px #C6C6C6 solid;
+  box-shadow: 1px 1px 1px #EAEAEA;
+
+}
+.button:active {
+  box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
