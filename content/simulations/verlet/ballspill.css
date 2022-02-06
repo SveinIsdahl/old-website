@@ -1,0 +1,26 @@
+#brett {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: solid green 1px;
+    background-color: lightblue;
+}
+
+#status {
+    position: absolute;
+    left: 520px;
+    top: 10px;
+    width: 500px;
+    height: 100px;
+    border: solid blue 1px;
+}
+
+.ball {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: darkred;
+    border-radius: 50%;
+}
